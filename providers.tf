@@ -10,7 +10,7 @@ terraform {
   backend "s3" {
     bucket  = ""
     key     = ""
-    region  = "ap-southeast-1"
+    region  = ""
   }
 
 }

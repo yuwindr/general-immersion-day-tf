@@ -20,7 +20,7 @@ It is based on the labs in AWS General Immersion Day workshop - [EC2 Linux Hands
 1. Installed [Terraform CLI](https://learn.hashicorp.com/tutorials/terraform/install-cli) and [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 2. AWS Credentials (IAM User or Role) to the account where the resources will be deployed.
 3. Create an EC2 Key Pair - will be used in the deployment of EC2 instance.
-4. To store remote state, create an S3 bucket and edit the `backend` section in `providers.tf`.
+4. To store remote state, create an S3 bucket and fill in the bucket, key and region under the `backend` section in `providers.tf`.
 
 ### Deployment Steps
 
