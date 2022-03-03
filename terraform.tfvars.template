@@ -1,0 +1,8 @@
+vpc_name = ""
+vpc_cidr = ""
+web_server_sg_name = ""
+web_server_sg_allowed_http_inbound_cidr = ""
+web_server_sg_allowed_ssh_inbound_cidr = ""
+ec2_instance_type = ""
+ec2_key_pair_name = ""
+ec2_instance_name = ""
