@@ -5,7 +5,7 @@ module "vpc" {
   cidr                 = var.vpc_cidr
   enable_dns_hostnames = true
 
-  azs = ["ap-southeast-1a", "ap-southeast-1c"]
+  azs = ["ap-southeast-1a", "ap-southeast-1b" "ap-southeast-1c"]
   # private_subnets = []
   public_subnets = [cidrsubnet(var.vpc_cidr, 8, 10), cidrsubnet(var.vpc_cidr, 8, 20)]
 
